@@ -4,7 +4,8 @@
 
 body {background-color: rgb(18 18 18)}
 
-#main-menu a {cursor: pointer;color:#ffffff; text-decoration: underline; text-underline-offset: 3px;}
+#main-menu a, #footer-menu a {cursor: pointer;color:#ffffff; text-decoration: underline; text-underline-offset: 3px;}
+
 #company-vision {
     background-image: url('../img/circle.png'); 
     background-position: left 100px top 90px;
@@ -24,8 +25,12 @@ body {background-color: rgb(18 18 18)}
 #services {background-color:#585858}
 #services h2 {font-size: 7rem;}
 #services p {font-size: 3em;line-height: 1;}
+.table-container {padding-right: 5rem;}
 
 #recent-projects .section-title {
     font-size: 6rem;
     line-height: 1;
-}
+} 
+
+
+

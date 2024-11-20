@@ -17,15 +17,18 @@
                 <a aria-label="go to Home page" href="/">
                     <img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="logo" width="80" />
                 </a>
-                <nav id="main-menu" class="flex flex-row gap-4 uppercase" role="navigation" aria-label="Main navigation">
-                    <a href="/">Home</a>
-                    <a href="/about">About Us</a>
-                    <a href="/our-work">Our Work</a>
-                    <a href="/services">Our Services</a>
-                    <a href="/contact">Contact Us</a>
-                    <a href="/blog">Blog</a>
-                    <a href="/privacy-policy">Privacy Policy</a>
-                </nav>
+
+                <?php 
+                    wp_nav_menu(   
+                       ['theme_location'  => 'main-menu',
+                        'menu'            => 'topnav',
+                        'container'       => 'nav', 
+                        'container_id'    => 'main-menu',
+                        'menu_class'      => 'flex flex-row gap-4 uppercase', 
+                        'echo'            => true,
+                        ]
+                    ); 
+                ?>
             </nav>
         </div>
     </header>

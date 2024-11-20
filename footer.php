@@ -3,16 +3,17 @@
         <img src="<?php bloginfo('template_url'); ?>/assets/img/logo.png" alt="logo" width="80" />
     </a>
     <div class="f-details">
-        <div class="md:px-auto flex flex-row flex-wrap gap-[20px] px-5 pt-16 text-sm uppercase md:text-lg lg:gap-[70px]">
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/">Home</a>
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/about">About Us</a>
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/our-work">Our Work</a>
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/services">Our Services</a>
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/contact">Contact Us</a>
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/blog">Blog</a>
-            <a class="cursor-pointer text-white underline underline-offset-2 hover:text-gray-light" href="/privacy-policy">Privacy Policy</a>
-        </div>
-
+        <?php 
+            wp_nav_menu(   
+                ['theme_location' => 'footer-menu',
+                'menu'            => 'footernav',
+                'container'       => 'div', 
+                'container_id'    => 'footer-menu',
+                'menu_class'      => 'md:px-auto flex flex-row flex-wrap gap-[20px] px-5 pt-16 text-sm uppercase md:text-lg lg:gap-[70px]', 
+                'echo'            => true,
+                ]
+            ); 
+        ?>
        <div class="pt-10 md:pt-24 footer-social-icons flex flex-col items-center">
             <a href="https://www.linkedin.com/company/shakewellagency/about/">
                 <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

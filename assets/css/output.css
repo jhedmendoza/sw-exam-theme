@@ -554,6 +554,40 @@ video {
   display: none;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -824,7 +858,7 @@ body {
   background-color: rgb(18 18 18)
 }
 
-#main-menu a {
+#main-menu a, #footer-menu a {
   cursor: pointer;
   color:#ffffff;
   text-decoration: underline;
@@ -871,6 +905,10 @@ body {
 #services p {
   font-size: 3em;
   line-height: 1;
+}
+
+.table-container {
+  padding-right: 5rem;
 }
 
 #recent-projects .section-title {
@@ -999,6 +1037,11 @@ body {
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
   }
 
+  .md\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .md\:px-\[60px\] {
     padding-left: 60px;
     padding-right: 60px;
@@ -1094,6 +1137,11 @@ body {
     gap: 70px;
   }
 
+  .lg\:px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .lg\:px-\[60px\] {
     padding-left: 60px;
     padding-right: 60px;
@@ -1104,4 +1152,7 @@ body {
   .xl\:h-\[620px\] {
     height: 620px;
   }
-}
+} 
+
+
+
