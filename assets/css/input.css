@@ -5,4 +5,27 @@
 body {background-color: rgb(18 18 18)}
 
 #main-menu a {cursor: pointer;color:#ffffff; text-decoration: underline; text-underline-offset: 3px;}
-#banner-section {margin-top:120px}
+#company-vision {
+    background-image: url('../img/circle.png'); 
+    background-position: left 100px top 90px;
+    background-repeat: no-repeat;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+    background-size: 520px 520px;
+}
+
+#banner-section {margin-top:120px;}
+.banner-texts {font-size:30px}
+.copyright {text-align:center; color:rgb(182 182 182)}
+.footer-social-icons {color:#ffffff; font-size:30px}
+
+#services {background-color:#585858}
+#services h2 {font-size: 7rem;}
+#services p {font-size: 3em;line-height: 1;}
+
+#recent-projects .section-title {
+    font-size: 6rem;
+    line-height: 1;
+}
