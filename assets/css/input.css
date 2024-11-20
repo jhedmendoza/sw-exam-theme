@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {background-color: rgb(18 18 18)}
+
+#main-menu a {cursor: pointer;color:#ffffff; text-decoration: underline; text-underline-offset: 3px;}
+#banner-section {margin-top:120px}
