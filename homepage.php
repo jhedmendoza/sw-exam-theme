@@ -11,5 +11,6 @@ Template Name: Homepage
     </div>
     <?php get_template_part('partials/services');?>
     <?php get_template_part('partials/recent','projects');?>
+    <?php get_template_part('partials/our','clients');?>
 </main>
 <?php get_footer();  ?>
