@@ -5,10 +5,10 @@
                 <span class="block text-right"> We're on a mission</span>
                 <div class="flex items-center justify-end md:justify-between">
                     <p class="hidden max-w-sm text-xl font-normal normal-case text-white md:inline-block">Brands that lead by change; that aims to disrupt; that exists to shape the future of our world.</p>
-                    <span class="block"> to build</span>
+                    <span class="block">to build</span>
                 </div>
                 <span class="block">World Class</span>
-                <span class="block ">Digital Products</span>
+                <span class="block">Digital Products</span>
             </h1>
 
             <p class="block max-w-sm py-6 text-white md:hidden md:text-xl">Brands that lead by change; that aims to disrupt; that exists to shape the future of our world.</p>

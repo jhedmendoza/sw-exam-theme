@@ -18,9 +18,11 @@ body {background-color: rgb(18 18 18)}
 }
 
 #banner-section {margin-top:120px;}
+#home-banner img {position: absolute; height: 100%; width: 100%; inset: 0px; object-fit: cover; color: transparent;}
 .banner-texts {font-size:30px}
 .copyright {text-align:center; color:rgb(182 182 182)}
 .footer-social-icons {color:#ffffff; font-size:30px}
+
 
 #services {background-color:#585858}
 #services h2 {font-size: 7rem;}

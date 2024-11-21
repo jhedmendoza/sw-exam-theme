@@ -588,10 +588,6 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -878,6 +874,16 @@ body {
 
 #banner-section {
   margin-top:120px;
+}
+
+#home-banner img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  color: transparent;
 }
 
 .banner-texts {
